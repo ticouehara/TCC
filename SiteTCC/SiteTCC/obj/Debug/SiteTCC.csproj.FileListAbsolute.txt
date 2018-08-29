@@ -1,0 +1,17 @@
+c:\users\etesp\documents\visual studio 2012\Projects\SiteTCC\SiteTCC\bin\SiteTCC.dll
+c:\users\etesp\documents\visual studio 2012\Projects\SiteTCC\SiteTCC\bin\SiteTCC.pdb
+c:\users\etesp\documents\visual studio 2012\Projects\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csprojResolveAssemblyReference.cache
+c:\users\etesp\documents\visual studio 2012\Projects\SiteTCC\SiteTCC\obj\Debug\SiteTCC.dll
+c:\users\etesp\documents\visual studio 2012\Projects\SiteTCC\SiteTCC\obj\Debug\SiteTCC.pdb
+E:\SiteTCC\SiteTCC\bin\SiteTCC.dll
+E:\SiteTCC\SiteTCC\bin\SiteTCC.pdb
+E:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csprojResolveAssemblyReference.cache
+E:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.dll
+E:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.pdb
+D:\SiteTCC\SiteTCC\bin\SiteTCC.dll.config
+D:\SiteTCC\SiteTCC\bin\SiteTCC.dll
+D:\SiteTCC\SiteTCC\bin\SiteTCC.pdb
+D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csprojAssemblyReference.cache
+D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csproj.CoreCompileInputs.cache
+D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.dll
+D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.pdb
