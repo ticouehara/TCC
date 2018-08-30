@@ -29,7 +29,7 @@ namespace SiteTCC
         {
             con = new Conexao();
             dt = new DataTable();
-            dt = con.executa_sql("select * from produto");
+            dt = con.executa_sql("select * from produto where nome like '%" + txtPesquisa.Text + "%'");
             lstProdutos.DataSource = dt;
             lstProdutos.DataBind();
         }
@@ -38,6 +38,11 @@ namespace SiteTCC
         {
             DataPager1.SetPageProperties(e.StartRowIndex, e.MaximumRows, false);
             this.BindListView();    
+        }
+        protected void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            txtPesquisa.Focus();
+            BindListView();
         }
     }
 }

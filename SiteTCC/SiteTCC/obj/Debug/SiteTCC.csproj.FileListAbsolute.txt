@@ -15,3 +15,8 @@ D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csprojAssemblyReference.cache
 D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csproj.CoreCompileInputs.cache
 D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.dll
 D:\SiteTCC\SiteTCC\obj\Debug\SiteTCC.pdb
+C:\Users\aluno\TCC\SiteTCC\SiteTCC\bin\SiteTCC.dll
+C:\Users\aluno\TCC\SiteTCC\SiteTCC\bin\SiteTCC.pdb
+C:\Users\aluno\TCC\SiteTCC\SiteTCC\obj\Debug\SiteTCC.csprojResolveAssemblyReference.cache
+C:\Users\aluno\TCC\SiteTCC\SiteTCC\obj\Debug\SiteTCC.dll
+C:\Users\aluno\TCC\SiteTCC\SiteTCC\obj\Debug\SiteTCC.pdb

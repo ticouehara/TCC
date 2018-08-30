@@ -30,9 +30,17 @@
          $(function () {
              $('.parallax').parallax();
          });
+         var MIN_TEXTLENGTH = 1;
+
+         function forcePostback(ctrl) {
+             if (ctrl != null && ctrl.value && ctrl.value.length >= MIN_TEXTLENGTH) {
+                 __doPostBack(ctrl.id, '');
+             }
+         }
+
  </script>
 
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" autocomplete="off">
     <div>
         <div class="navbar-fixed">
   <nav class="z-depth-0" style="background-color: rgba(0, 0, 0, 0.3);">
@@ -40,7 +48,7 @@
         <div class="row">
         <div class="col s12">
            <a href="#" data-activates="menu-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-          <a href="#" class="brand-logo">Penélope Distribuidora</a>
+          <a href="#" class="brand-logo">Penélope</a>
 
           <ul class="right hide-on-med-and-down">
             <li><a href="https://github.com/dogfalo/materialize/" target="_blank">Github</a></li>
@@ -77,10 +85,18 @@
             <div class="row container">
                 <h3 class="header">Produtos</h3>
                 <div class="row">
-                    <div class="input-field col s12 m6">
-                        <asp:TextBox ID="txtPesquisa" runat="server"></asp:TextBox>
-                        <label for="txtPesquisa">Pesquisar produto...</label>
+                    <asp:Panel ID="Panel1" runat="server" DefaultButton="btnPesquisa">
+                    <div class="col s12">
+                        <div class="input-field col s12 m6">
+                            <asp:TextBox ID="txtPesquisa" runat="server"></asp:TextBox>
+                            <label for="txtPesquisa">Pesquisar produto...</label>
+                        </div>
+                        <div class="col s12 m6">
+                        <br />
+                            <asp:LinkButton ID="btnPesquisa" runat="server" OnClick="btnPesquisar_Click" CssClass="waves-effect waves-light btn red lighten-3">Pesquisar</asp:LinkButton>
+                        </div>
                     </div>
+                </asp:Panel>
                 </div>
                 <div class="row">
                     <asp:ListView ID="lstProdutos" runat="server" OnPagePropertiesChanging="lstProdutos_PagePropertiesChanging">
@@ -109,7 +125,8 @@
                                 </div>
                         </ItemTemplate>
                     </asp:ListView>
-
+                    </div>
+                <div class="row">
                     <asp:DataPager ID="DataPager1" runat="server" PagedControlID="lstProdutos" PageSize="12">
                         <Fields>
                             <asp:NextPreviousPagerField ButtonType="Link" ShowFirstPageButton="false" ShowPreviousPageButton="true"
@@ -118,8 +135,8 @@
                             <asp:NextPreviousPagerField ButtonType="Link" ShowNextPageButton="true" ShowLastPageButton="false" ShowPreviousPageButton = "false" />
                         </Fields>
                     </asp:DataPager>
+                    </div>
                 </div>
-            </div>
         </div>
 </div>                               
     </form>
