@@ -13,37 +13,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical" >
 
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/penelopelogo" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout3"
-        android:layout_below="@+id/linearLayout7" >
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
             android:fontFamily="Verdana"
             android:text="CNPJ" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/linearLayout1"
-        android:layout_centerHorizontal="true" >
 
         <EditText
             android:id="@+id/txtCNPJ"
@@ -55,71 +40,35 @@
             <requestFocus />
         </EditText>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout1"
-        android:layout_below="@+id/linearLayout1"
-        android:layout_marginTop="29dp" >
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="Verdana"
             android:text="Senha" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout5"
-        android:layout_below="@+id/linearLayout5" >
 
         <EditText
             android:id="@+id/txtSenha"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="textPassword" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout4"
-        android:layout_below="@+id/linearLayout4" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtEsqueci"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="Verdana"
             android:text="Esqueci minha senha"
             android:textColor="#6787b7" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp" >
 
         <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="150dp"
+            android:id="@+id/btnLogin1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#ff7373"
-            android:ellipsize="start"
-            android:fontFamily="Verdana"
-            android:text="Login" />
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="49dp"
+            android:text="Button" />
 
     </LinearLayout>
 
